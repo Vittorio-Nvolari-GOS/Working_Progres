@@ -5,18 +5,18 @@
 
 typedef struct
 {
-    char nome[30];
-    int eta;
+ char nome[30];
+ int eta;
 }Dati;
 
 int main() {
-   
-   int scelta, lunghezza=0, i=0, j;
-   Dati *vettore = NULL;
-   
-   do
-   {    
-    printf(&quot;--- Menù ---\n&quot;);        
+
+int scelta, lunghezza=0, i=0, j;
+Dati *vettore = NULL;
+
+do
+{ 
+    printf(&quot;--- Menù ---\n&quot;); 
     printf(&quot;Scegli l&#39;operazione da eseguire:\n&quot;);    
     printf(&quot;1. Inserisci\n&quot;);
     printf(&quot;2. Cancella\n&quot;);
